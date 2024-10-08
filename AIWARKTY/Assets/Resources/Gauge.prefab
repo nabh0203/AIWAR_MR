@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3103113697206428475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3103113697206428473}
+  - component: {fileID: 3103113697206428474}
+  m_Layer: 0
+  m_Name: Gauge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3103113697206428473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3103113697206428475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3103113697206428474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3103113697206428475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc4afce57a7eba47936789b7988fcdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gImages:
+  - {fileID: 4691971911239734156, guid: dd8e95afb3ba6d640bafc1a5943a0f22, type: 3}
+  - {fileID: 4994805953829130966, guid: 0a40a900ba62e7b45ae097dc62af4e64, type: 3}
+  - {fileID: 4399926216188515337, guid: 0917a49ddea97a64b955d71e408f8c4d, type: 3}
+  - {fileID: 4068023350515964315, guid: f2470d08bbbffb5439e274eca4e9da75, type: 3}
+  - {fileID: 8491262267785949111, guid: 4e96a1d40d1b29e4591006016714d5cf, type: 3}
+  - {fileID: 2822454846922869351, guid: be5b931c0d7318f458227c403db767b6, type: 3}
+  - {fileID: 6438132574289840599, guid: 54843d3cdf386944398dbae246a005ad, type: 3}
+  - {fileID: 457225727694301680, guid: 00f568ac169bfa341bebcb697d52f36a, type: 3}
+  - {fileID: 8075575665262063806, guid: c1e70defdb74bb342bf6e61fbfee24d1, type: 3}
+  - {fileID: 1308437597594145614, guid: 4f0acf2527a91b2409f41fbe48d639a8, type: 3}
+  pressAUI: {fileID: 6660347383919420176, guid: 48cda9b5d091d0a4d92cbe218f754c7d, type: 3}
+  raycast: {fileID: 4627451349749895677, guid: 0bf3bd7fbe9d2f044bff1787c0fdc5ce, type: 3}
